@@ -18,12 +18,11 @@ If you don'tdon't want to use a python script, cythonize the script and build it
 ```
 where ``pyclude`` is the python header location and ``pylib`` is the python library location.
 
-If you don't want the command window,
-add:
+If you don't want the command window, add:
 ```c
 #include <Windows.h>
 ```
-in the beginning of the file and 
+in the beginning of ``Main.cpp`` and 
 ```c
 ShowWindow(GetConsoleWindow(), SW_HIDE);
 ```
