@@ -9,9 +9,9 @@ Windows:
 + Install beautifulsoup ``pip install bs4``
 + Make sure that you have curl.exe (from Windows or msys)
 + Edit the credentials file location and add your credentials
-+ Drop the python script into ``shell:startup`` and TADA! you will never need to login to fortinet
++ Drop the python script (auto_login.py) into ``shell:startup`` and TADA! you will never need to login to fortinet
 
-If you don'tdon't want to use a python script, cythonize the script and build it with python headers and libraries like this (Requires cython: ``pip install cython``):
+If you don't want to use a python script, cythonize the script and build it with python headers and libraries like this (Requires cython: ``pip install cython``):
 ```
 > cython auto_login.py -o Main.cpp --cplus -3 --embed
 > clang++ Main.cpp -I "%pyclude%" -lpython310 -L "%pylib%" -o Login.exe -lUser32.lib -O3
