@@ -17,9 +17,6 @@ Linux:
 + Edit the credentials file location and add your credentials
 + Add the script as a startup task
 
-MacOS:
-<h1>DIY</h1>
-
 ## JSON Format:
 ```json
 {
