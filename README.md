@@ -5,7 +5,7 @@ Uses cURL and python (subprocess) to log into fortinet automatically.
 
 ## Usage:
 Windows:
-+ Install [Python](www.python.org)
++ Install [Python](https://www.python.org)
 + Install beautifulsoup ``pip install bs4``
 + Make sure that you have curl.exe (from Windows or msys)
 + Edit the credentials file location and add your credentials
