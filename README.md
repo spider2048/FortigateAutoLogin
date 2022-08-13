@@ -19,3 +19,11 @@ Linux:
 
 MacOS:
 <h1>DIY</h1>
+
+## JSON Format:
+```json
+{
+	"username": "my-roll-no",
+	"password": "my-password"
+}
+```
