@@ -28,6 +28,12 @@ ShowWindow(GetConsoleWindow(), SW_HIDE);
 ```
 just after the ``wmain`` function and compile it.
 
+------------------------------------------------------------------
+Optional: (Windows)
++ Set ``Pyclude`` to the ``PYTHONPATH/Includes`` folder
++ Set ``Pylib`` to the ``PYTHONPATH/libs`` folder
++ Use the build script!
+
 Linux:
 + Install curl ``apt-get install curl``
 + Install beautifulsoup ``pip install bs4``
